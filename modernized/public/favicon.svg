@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-  <!-- Rounded square background -->
-  <rect width="48" height="48" rx="13" fill="#6366F1"/>
-  <!-- Bold S -->
-  <text x="24" y="34" text-anchor="middle"
-    font-family="'Helvetica Neue', Arial, sans-serif"
-    font-size="30" font-weight="900" fill="white">S</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100" fill="none">
+  <path d="M50,8 C64,8 76,18 78,34 C80,50 66,60 62,74 C58,88 54,94 50,94 C46,94 42,88 38,74 C34,60 20,50 22,34 C24,18 36,8 50,8 Z" fill="#6366F1"/>
+  <path d="M50,16 C58,20 64,32 60,46 C56,60 50,64 46,76 C42,62 36,50 40,36 C44,22 44,14 50,16 Z" fill="#818CF8" opacity="0.45"/>
+  <text x="50" y="68" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="900" fill="white">T</text>
 </svg>
