@@ -84,13 +84,14 @@ export default function App() {
         {/* Logo */}
         <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:32, padding:"0 6px" }}>
           <div style={{
-            width:36, height:36, borderRadius:10, display:"flex", alignItems:"center", justifyContent:"center",
-            background:"linear-gradient(135deg,#6366F1,#8B5CF6)", color:"#fff", fontWeight:800, fontSize:16,
-          }}>S</div>
-          <div>
-            <div style={{ fontWeight:700, fontSize:15, color:"#0F172A", letterSpacing:-0.3 }}>Trackozi</div>
-            <div style={{ fontSize:11, color:"#94A3B8", fontWeight:500 }}>Personal Finance</div>
-          </div>
+  width:36, height:36, display:"flex", alignItems:"center", justifyContent:"center",
+}}>
+  <img src="/favicon.svg" alt="Trackozi" style={{ width:36, height:36 }} />
+</div>
+<div>
+  <div style={{ fontWeight:700, fontSize:15, color:"#0F172A", letterSpacing:-0.3 }}>Trackozi</div>
+  <div style={{ fontSize:11, color:"#94A3B8", fontWeight:500 }}>Personal Finance</div>
+</div>
         </div>
 
         {/* Nav */}
