@@ -209,22 +209,21 @@ export default function ExpenseForm({
                   style={{
                     padding: "10px 8px",
                     borderRadius: 10,
-                    border: `1.5px solid ${
-                      form.category === cat
-                        ? COLORS[cat]
-                        : "#E2E8F0"
-                    }`,
-                    background:
-                      form.category === cat
-                        ? COLORS[cat] + "18"
-                        : "#F8FAFC",
-                    cursor: "pointer",
-                    fontSize: 12,
-                    fontWeight: 600,
-                    color:
-                      form.category === cat
-                        ? COLORS[cat]
-                        : "#64748B"
+                   border: `1.5px solid ${
+  form.category === cat
+    ? CATEGORY_COLORS[cat]
+    : "#E2E8F0"
+}`,
+
+background:
+  form.category === cat
+    ? CATEGORY_COLORS[cat] + "18"
+    : "#F8FAFC",
+
+color:
+  form.category === cat
+    ? CATEGORY_COLORS[cat]
+    : "#64748B"
                   }}
                 >
                   {cat}
