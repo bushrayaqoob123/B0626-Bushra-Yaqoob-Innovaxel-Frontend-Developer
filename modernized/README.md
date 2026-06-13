@@ -1,10 +1,10 @@
-# 💰 Spendly — Personal Expense Tracker
+#  Trackozi — Personal Expense Tracker
 
 A clean, modern personal finance dashboard built with **React + Vite + Tailwind CSS**.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js **v18+**
@@ -38,18 +38,18 @@ npm run preview
 
 | Feature | Details |
 |---|---|
-| ➕ Add Expense | Modal form with validation |
-| ✏️ Edit Expense | Pre-filled modal |
-| 🗑️ Delete Expense | Instant removal |
-| 🔍 Filter | By category + date range |
-| 📊 Charts | Doughnut (by category) + 7-day area trend |
-| 💾 Persistence | localStorage — data survives refresh |
-| ⚡ Performance | `useMemo` for filtered/sorted lists |
-| 🎨 Animations | Fade-in page transitions, hover effects |
+|  Add Expense | Modal form with validation |
+|  Edit Expense | Pre-filled modal |
+| Delete Expense | Instant removal |
+|  Filter | By category + date range |
+| Charts | Doughnut (by category) + 7-day area trend |
+| Persistence | localStorage — data survives refresh |
+| Performance | `useMemo` for filtered/sorted lists |
+| Animations | Fade-in page transitions, hover effects |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 src/
@@ -71,7 +71,7 @@ src/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **React 18** — UI library
 - **Vite** — Build tool & dev server
@@ -81,7 +81,7 @@ src/
 
 ---
 
-## 📦 Key Engineering Decisions
+##  Key Engineering Decisions
 
 - **Custom hook `useExpenses`** — separates all business logic from UI
 - **`useMemo`** — filtered/sorted list only recomputes when dependencies change
