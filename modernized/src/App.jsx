@@ -88,7 +88,7 @@ export default function App() {
             background:"linear-gradient(135deg,#6366F1,#8B5CF6)", color:"#fff", fontWeight:800, fontSize:16,
           }}>S</div>
           <div>
-            <div style={{ fontWeight:700, fontSize:15, color:"#0F172A", letterSpacing:-0.3 }}>Spendly</div>
+            <div style={{ fontWeight:700, fontSize:15, color:"#0F172A", letterSpacing:-0.3 }}>Trackozi</div>
             <div style={{ fontSize:11, color:"#94A3B8", fontWeight:500 }}>Personal Finance</div>
           </div>
         </div>
